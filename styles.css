@@ -1,0 +1,28 @@
+
+.scrollable {
+  height: 40vh;
+  overflow: auto;
+line-height: 1.1em;
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;
+
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollable::-webkit-scrollbar {
+  display: none;
+}
+
+hr {
+  margin-bottom: 2px !important;
+  margin-top: 2px !important;
+}
+
+img {
+  filter: grayscale(40%);
+}
+
