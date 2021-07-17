@@ -1,7 +1,7 @@
 .scrollable {
-  height: 51vh;
+  height: 55vh;
   overflow: auto;
-line-height: 1.1em;
+  line-height: 1.1em;
 
   /* Hide scrollbar for IE, Edge and Firefox */
   -ms-overflow-style: none;
@@ -24,4 +24,3 @@ hr {
 img {
   filter: grayscale(40%);
 }
-
