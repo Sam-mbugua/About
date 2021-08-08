@@ -24,3 +24,12 @@ hr {
 img {
   filter: grayscale(40%);
 }
+
+.thumbnail_img{
+    position:relative;
+    overflow:hidden;
+    padding-bottom:100%;
+}
+.thumbnail_img{
+    position:absolute;
+}
